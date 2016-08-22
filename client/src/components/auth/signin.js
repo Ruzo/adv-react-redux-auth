@@ -6,7 +6,7 @@ import SignInForm from './signInForm';
 class SignIn extends Component {
 
   handleFormSubmit({email, password}){
-    this.props.signInUser({email: email, password: password});
+    this.props.signInUser({email, password});
   }
 
   render() {
